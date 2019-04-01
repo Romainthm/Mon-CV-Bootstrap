@@ -6,6 +6,9 @@
 	.parc{
 		margin-left: 15%;
 	}
+	.cmp{
+		margin-left: 25%;
+	}
 }
 @media screen and (max-width: 1024px){
 .size{
@@ -105,8 +108,13 @@ nav{
 @media all and (max-width: 1024px){
   .XP{
 		width: 100%;
-		height: 550px;
+		height: 400px;
 		margin: auto;
+  }
+	.cmp{
+		width: 100%;
+		height: 560px;
+		margin-left: auto;
   }
   .PR{
 		margin-top: 10px;
