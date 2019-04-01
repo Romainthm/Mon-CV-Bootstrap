@@ -102,7 +102,7 @@ nav{
 @media all and (max-width: 1024px){
   .XP{
 		width: 100%;
-		height: 600px;
+		height: 560px;
 		margin: auto;
   }
   .PR{
@@ -202,7 +202,4 @@ nav{
 }
 .zoom:hover{
   -webkit-transform: scale(1.2);
-}
-.prr{
-	margin-left: 15%;
 }
