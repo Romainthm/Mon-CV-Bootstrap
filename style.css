@@ -15,10 +15,10 @@ body {
 	height: 90vh;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 900% 900%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	background-size: 1000% 1000%;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -90,8 +90,8 @@ nav{
 }
 .XP{
   margin-top: 15px;
-  margin-left: 25%;
-	width: 51%;
+  margin-left: 20%;
+	width: 61%;
   border-radius: 10px 10px 10px 10px;
 }
 .PR{
@@ -101,14 +101,21 @@ nav{
 }
 @media all and (max-width: 1024px){
   .XP{
-		width: 65%;
-    margin-right: 15%;
-    margin-left: 15%
+		width: 100%;
+		height: 600px;
+		margin: auto;
   }
   .PR{
 		margin-top: 10px;
     margin-left: auto;
   }
+	#lng{
+		margin-right: 20%;
+	}
+	#cod{
+		margin-top: 250px;
+		margin-left: 20%;
+	}
 }
 .java{
   height: 30px;
@@ -195,4 +202,7 @@ nav{
 }
 .zoom:hover{
   -webkit-transform: scale(1.2);
+}
+.prr{
+	margin-left: 15%;
 }
