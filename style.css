@@ -3,6 +3,9 @@
 	width: 51%;
 	margin-left: 30%;
 	}
+	.parc{
+		margin-left: 15%;
+	}
 }
 @media screen and (max-width: 1024px){
 .size{
@@ -102,7 +105,7 @@ nav{
 @media all and (max-width: 1024px){
   .XP{
 		width: 100%;
-		height: 560px;
+		height: 550px;
 		margin: auto;
   }
   .PR{
